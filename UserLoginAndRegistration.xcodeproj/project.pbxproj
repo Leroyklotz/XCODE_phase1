@@ -14,6 +14,7 @@
 		28DCB48F1BE35B8E00B8EE60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28DCB48D1BE35B8E00B8EE60 /* LaunchScreen.storyboard */; };
 		28DCB4971BE3646200B8EE60 /* RegisterPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DCB4961BE3646200B8EE60 /* RegisterPageViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		28DCB49A1BE36D3000B8EE60 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DCB4991BE36D3000B8EE60 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		DFDEDAF21BF3358A00EEA6FC /* DB.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DFDEDAF01BF3358A00EEA6FC /* DB.xcdatamodeld */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		28DCB4901BE35B8E00B8EE60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		28DCB4961BE3646200B8EE60 /* RegisterPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterPageViewController.swift; sourceTree = "<group>"; };
 		28DCB4991BE36D3000B8EE60 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DFDEDAF11BF3358A00EEA6FC /* DB.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DB.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				28DCB4841BE35B8E00B8EE60 /* AppDelegate.swift */,
+				DFDEDAF01BF3358A00EEA6FC /* DB.xcdatamodeld */,
 				28DCB4861BE35B8E00B8EE60 /* ViewController.swift */,
 				28DCB4881BE35B8E00B8EE60 /* Main.storyboard */,
 				28DCB48B1BE35B8E00B8EE60 /* Assets.xcassets */,
@@ -104,6 +107,7 @@
 		28DCB4791BE35B8E00B8EE60 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Leroy Klotz";
 				TargetAttributes = {
@@ -150,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				28DCB49A1BE36D3000B8EE60 /* LoginViewController.swift in Sources */,
+				DFDEDAF21BF3358A00EEA6FC /* DB.xcdatamodeld in Sources */,
 				28DCB4871BE35B8E00B8EE60 /* ViewController.swift in Sources */,
 				28DCB4851BE35B8E00B8EE60 /* AppDelegate.swift in Sources */,
 				28DCB4971BE3646200B8EE60 /* RegisterPageViewController.swift in Sources */,
@@ -300,8 +305,22 @@
 				28DCB4951BE35B8E00B8EE60 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DFDEDAF01BF3358A00EEA6FC /* DB.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DFDEDAF11BF3358A00EEA6FC /* DB.xcdatamodel */,
+			);
+			currentVersion = DFDEDAF11BF3358A00EEA6FC /* DB.xcdatamodel */;
+			path = DB.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 28DCB4791BE35B8E00B8EE60 /* Project object */;
 }

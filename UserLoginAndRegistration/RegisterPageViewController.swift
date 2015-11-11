@@ -58,7 +58,7 @@ class RegisterPageViewController: UIViewController {
         NSUserDefaults.standardUserDefaults().synchronize();
         
         // Display alert message with confirmation.
-        var myAlert = UIAlertController(title:"Alert", message: "Registration is successful. Thank you!", preferredStyle: UIAlertControllerStyle.Alert);
+        let myAlert = UIAlertController(title:"Alert", message: "Registration is successful. Thank you!", preferredStyle: UIAlertControllerStyle.Alert);
         
         let okAction = UIAlertAction(title:"Ok", style: UIAlertActionStyle.Default)
         {
@@ -72,7 +72,7 @@ class RegisterPageViewController: UIViewController {
 
     func displayMyAlertMessage(userMessage:String)
     {
-        var myAlert = UIAlertController(title:"Alert", message: userMessage, preferredStyle: UIAlertControllerStyle.Alert);
+        let myAlert = UIAlertController(title:"Alert", message: userMessage, preferredStyle: UIAlertControllerStyle.Alert);
         
         let okAction = UIAlertAction(title:"Ok", style: UIAlertActionStyle.Default, handler:nil);
         
