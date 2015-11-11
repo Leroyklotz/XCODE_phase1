@@ -2,7 +2,7 @@
 //  RegisterPageViewController.swift
 //  UserLoginAndRegistration
 //
-//  Created by Rob Van Serveen on 10/30/15.
+//  Created by Leroy Klotz on 10/30/15.
 //  Copyright © 2015 Leroy Klotz. All rights reserved.
 //
 
