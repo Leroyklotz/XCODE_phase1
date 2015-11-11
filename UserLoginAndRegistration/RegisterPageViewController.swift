@@ -7,8 +7,8 @@
 //
 
 import UIKit
+import CoreData
 //import Parse
-
 
 class RegisterPageViewController: UIViewController {
 
@@ -67,7 +67,6 @@ class RegisterPageViewController: UIViewController {
         
         myAlert.addAction(okAction);
         self.presentViewController(myAlert, animated:true, completion:nil);
-        
     }
 
     func displayMyAlertMessage(userMessage:String)

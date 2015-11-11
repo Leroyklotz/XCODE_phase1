@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class LoginViewController: UIViewController {
 
@@ -80,8 +81,6 @@ class LoginViewController: UIViewController {
                 self.dismissViewControllerAnimated(true, completion: nil);
             }
         } // If correct email adress and correct password, present loginView
-        
-        
     }
     
     /*

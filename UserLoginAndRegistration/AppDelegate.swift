@@ -9,6 +9,12 @@
 import UIKit
 import CoreData
 
+class AAARegisteredUserMO: NSManagedObject {
+    
+    @NSManaged var email: String?
+    @NSManaged var password: String?
+}
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

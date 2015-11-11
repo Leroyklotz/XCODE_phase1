@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		28DCB4811BE35B8E00B8EE60 /* UserLoginAndRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserLoginAndRegistration.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28DCB4811BE35B8E00B8EE60 /* UserLoginAndRegistration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = UserLoginAndRegistration.app; path = "/Users/leroyklotz/Desktop/Projects/App1/build/Debug-iphoneos/UserLoginAndRegistration.app"; sourceTree = "<absolute>"; };
 		28DCB4841BE35B8E00B8EE60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28DCB4861BE35B8E00B8EE60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		28DCB4891BE35B8E00B8EE60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				28DCB4831BE35B8E00B8EE60 /* UserLoginAndRegistration */,
-				28DCB4821BE35B8E00B8EE60 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		28DCB4821BE35B8E00B8EE60 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				28DCB4811BE35B8E00B8EE60 /* UserLoginAndRegistration.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		28DCB4831BE35B8E00B8EE60 /* UserLoginAndRegistration */ = {
@@ -126,7 +117,7 @@
 				Base,
 			);
 			mainGroup = 28DCB4781BE35B8E00B8EE60;
-			productRefGroup = 28DCB4821BE35B8E00B8EE60 /* Products */;
+			productRefGroup = 28DCB4781BE35B8E00B8EE60;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
